@@ -23,8 +23,9 @@ function check(){
     displayArea.innerHTML =  `<p> you can vote </p>`
   } else if (age < 18){
     displayArea.innerHTML = `<p> you are not eligible to vote, you have ${18-age} more years to vote </p>`
-  } if (Number (birthYear) > currentYear)
-    alert ('wrong year');
+  } 
+  if (Number (birthYear) > currentYear)
+    alert ('invalid birthyear');
     return;
 
 
